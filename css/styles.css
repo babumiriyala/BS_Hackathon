@@ -225,3 +225,31 @@ nav ul li a.active {
 .carousel-img img {
     width: 100%;
 }
+
+.controls {
+    margin: 20px;
+    text-align: center;
+}
+.controls li {
+    list-style: none;
+    display: inline;
+}
+.pagination.active {
+    background-color: #929da5;
+    border-color: #fff;
+    height: 15px;
+    width: 15px;
+}
+.pagination {
+    border: 3px solid #c3c9ce;
+    border-radius: 10px;
+    display: inline-block;
+    height: 15px;
+    width: 15px;
+    margin-right: 4px;
+    cursor: pointer;
+    
+}
+.pagination:hover {
+    border-color: #929da5;
+}

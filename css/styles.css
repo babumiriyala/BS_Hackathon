@@ -253,3 +253,78 @@ nav ul li a.active {
 .pagination:hover {
     border-color: #929da5;
 }
+
+.text-inter {
+    background-color: #f8f9f9;
+    padding: 20px 0 80px;
+    border-top: solid 1px #e3e3e3;
+}
+.button.solid-color {
+    background-color: #63c6ae;
+    padding: 15px 40px;
+    border-radius: 3px;
+    font-weight: 600;
+    font-size: 16px;
+    color: #fff;
+    margin-right: 15px;
+}
+.button.solid-color:hover {
+    background-color: #929da5;
+    text-decoration: none;
+}
+.button.extra-color {
+    background-color: #455357;
+    padding: 15px 40px;
+    border-radius: 3px;
+    font-weight: 600;
+    font-size: 16px;
+    color: #fff;
+}
+.button.extra-color:hover {
+    background-color: #929da5;
+    text-decoration: none;
+}
+.divider {
+    height: 25px;
+}
+
+.h2-wrap {
+    background-color: #63c6ae;
+    padding: 5px 0;
+}
+.standard-block {
+    font-size: 24px;
+    color: #fff;
+    font-weight: 400 ;
+}
+
+.articles {
+    overflow: hidden;
+}
+.container-fluid {
+    padding-left: 0px;
+    padding-right: 15px;
+}
+.article-img img {
+    width: 100%;
+}
+.article-img {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.article-overlay {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0px;
+    background-color: #000;
+    opacity: 0.5;
+    cursor: pointer;
+}
+.article-overlay:hover {
+    opacity: 0;
+
+}
+.container-articles {
+    border-bottom: 1px solid #333b3e;
+}

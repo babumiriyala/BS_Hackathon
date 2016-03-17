@@ -328,3 +328,55 @@ nav ul li a.active {
 .container-articles {
     border-bottom: 1px solid #333b3e;
 }
+
+.laptop-slider {
+    text-align: center;
+    background-color: #242a2c;
+    padding: 125px 0 100px;
+    color: #fff;
+
+}
+.slideshow, .quote-slideshow {
+    position: relative;
+    display: block;
+    overflow: hidden;
+}
+.next, .prev, .quote-next, .quote-prev{
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    z-index: 1;
+    margin-top: -.75em;
+    
+    
+}
+.next:hover, .prev:hover, .quote-next:hover, .quote-prev:hover{
+    cursor: pointer;
+    color: #6dbeaa;
+}
+.next, .quote-next {
+    right: 15px;
+}
+.prev, .quote-prev{
+    left: 15px;
+}
+figure{
+    position: absolute;
+    opacity: 0;
+    transition: 1s opacity;
+    width: 100%;
+}
+figure.show {
+    opacity: 1;
+    position: absolute;
+    position: static;
+    transition: 1s opacity;
+}
+figcaption{
+    font-size: 18px;
+    color: #fff;
+    text-align: center;
+}
+figcaption a{
+color: #fff;
+}
